@@ -1,4 +1,4 @@
-path: "~/Downloads/combined_yolo_dataset"
+path: "~/Downloads/combined_yolo_dataset_v2"
 train: images/train
 val: images/val
 test: images/train
