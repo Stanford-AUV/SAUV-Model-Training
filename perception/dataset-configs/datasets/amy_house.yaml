@@ -1,0 +1,10 @@
+path: "~/Downloads/combined_yolo_dataset"
+train: images/train
+val: images/val
+test:  # test images (optional)
+
+# Classes (80 COCO classes)
+names:
+  0: blue_arrow
+  1: red_arrow
+  2: bouy
