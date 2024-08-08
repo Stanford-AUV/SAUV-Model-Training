@@ -46,6 +46,8 @@ with dai.Device(pipeline) as device:
         # Get BGR frame from NV12 encoded video frame to show with opencv
         # Visualizing the frame on slower hosts might have overhead
         frame = videoIn.getCvFrame()
+        frame = cv2.rotate(frame, cv2.ROTATE_180)
+
         cv2.imshow("video", frame)
         result.write(frame)
 
